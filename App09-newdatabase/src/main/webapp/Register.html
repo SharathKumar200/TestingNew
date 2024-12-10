@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>****Register Form****</title>
+</head>
+<body bgcolor="lightblue">
+
+	<style>
+label {
+	font-size: 18px;
+	color: darkblue;
+	font-weight: bold;
+}
+
+input {
+	margin-top: 10px;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+</style>
+	<form action="./RegisterServlet" method="post">
+		<fieldset>
+			<legend>Registrationform</legend>
+			<label for="name">Name:</label> <input type="text" id="name"
+				name="name" required style="width: 228px;"><br>
+			<br> <label>Gender:</label> <input type="radio" id="male"
+				name="gender" value="Male" required> Male <input
+				type="radio" id="female" name="gender" value="Female">
+			Female<br>
+			<br> <label for="location">Location:</label> <select
+				id="location" name="location" required style="width: 135px;">
+				<option value="">--Select--</option>
+				<option value="Banglore">Banglore</option>
+				<option value="Mysore">Mysore</option>
+				<option value="Tumkur">Tumkur</option>
+			</select><br>
+			<br>
+
+
+
+			<button type="submit" style="width: 120px;">Register</button>
+
+			<br>
+			<br> <a href="./DisplayServlet">See existing details.......</a>
+		</fieldset>
+	</form>
+</body>
+</html>
