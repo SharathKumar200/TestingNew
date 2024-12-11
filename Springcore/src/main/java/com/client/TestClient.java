@@ -14,6 +14,7 @@ public class TestClient {
 		e.empinfo();
 		Student s = (Student) context.getBean("student");
 		s.studentinfo();
+		System.out.println("Exit Application!");
 	}
 
 }
