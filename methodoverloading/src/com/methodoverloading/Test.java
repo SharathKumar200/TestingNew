@@ -2,12 +2,11 @@ package com.methodoverloading;
 
 public class Test {
 
-	
 	/*
 	 * Method overloading in Java allows a class to have more than one method having
 	 * the same name, if their parameter lists are different. This concept is
-	 * fundamental in Java programming and is used extensively to create methods that perform similar
-	 * tasks but with different types or numbers of parameters.
+	 * fundamental in Java programming and is used extensively to create methods
+	 * that perform similar tasks but with different types or numbers of parameters.
 	 */
 
 	void m1(int a, int b) {
